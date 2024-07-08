@@ -1,6 +1,6 @@
 <template>
     <div>
- <h2>Main</h2>
+ <h2>random</h2>
     </div>
 </template>
 
