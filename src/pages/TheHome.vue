@@ -1,12 +1,11 @@
+<script setup>
+</script>
+
 <template>
-    <div>
-          <h1>home</h1>
-    </div>
+    <h1>dsasda</h1>
 </template>
 
-<script setup>
 
-</script>
 
 <style lang="sass" scoped>
 @import '../assets/styles/main'

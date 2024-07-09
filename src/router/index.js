@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import TheHome from '../pages/TheHome.vue'
-import TheCocktail from '../pages/TheCocktail.vue'
-import CocktailsRandom from '../pages/CocktailsRandom.vue'
+import TheHome from '@/pages/TheHome.vue'
+import TheCocktail from '@/pages/TheCocktail.vue'
+import CocktailsRandom from '@/pages/CocktailsRandom.vue'
 
 
 const router = createRouter({
@@ -24,5 +24,6 @@ const router = createRouter({
     },
   ]
 })
+
 
 export default router
