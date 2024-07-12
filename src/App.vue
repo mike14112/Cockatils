@@ -4,8 +4,12 @@ import { RouterView } from 'vue-router';
 
 <template>
     <div></div>
+
     <router-view></router-view>
 
 </template>
 
-<style scoped></style>
+<style lang="sass" scoped>
+@import './assets/styles/main'
+
+</style>

@@ -5,12 +5,13 @@
 
 <template>
     <div>
- <h2>random</h2>
+        <h2>random</h2>
     </div>
 </template>
 
 
 
 <style lang="sass" scoped>
-@import  '../assets/styles/main'
+@import  '../assets/styles/main.sass'
+
 </style>
