@@ -14,6 +14,7 @@ const props = defineProps({
         </div>
         <div class="main">
             <button class="btn">Get Random Cocktail</button>
+            <slot></slot>
         </div>
     </div>
 </template>
@@ -38,7 +39,7 @@ const props = defineProps({
     position: relative
     width:50% 
     padding: 32px 40px
-.btn-random
+.btn
     position: absolute
     top: 32px
     right: 40px
@@ -51,8 +52,8 @@ const props = defineProps({
     cursor: pointer
     color: $text
 
-     &:hover,
-     &:active
+     btn:hover,
+     btn:active
       background-color:darken($accent,10% )
       border-color: darken($accent,10% )
 </style>
